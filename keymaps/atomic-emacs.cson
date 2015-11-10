@@ -55,7 +55,7 @@
   'cmd-space': 'atomic-emacs:just-one-space'
   'cmd-{': 'atomic-emacs:backward-paragraph'
   'cmd-}': 'atomic-emacs:forward-paragraph'
-  'cmd-c': 'atomic-emacs:capitalize-word-or-region'
+#  'cmd-c': 'atomic-emacs:capitalize-word-or-region'
   'cmd-l': 'atomic-emacs:downcase-word-or-region'
   'cmd-u': 'atomic-emacs:upcase-word-or-region'
   'ctrl-cmd-b': 'atomic-emacs:backward-sexp'
@@ -69,7 +69,8 @@
   'up': 'atomic-emacs:previous-line'
   'down': 'atomic-emacs:next-line'
   'ctrl-v': 'atomic-emacs:scroll-up'
-  'cmd-v': 'atomic-emacs:scroll-down'
+  'ctrl-shift-v': 'atomic-emacs:scroll-down'
+#  'cmd-v': 'atomic-emacs:scroll-down'
 
 '.platform-linux atom-workspace.atomic-emacs atom-text-editor':
   'ctrl-d': 'core:delete'
