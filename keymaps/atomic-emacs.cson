@@ -72,6 +72,10 @@
   'ctrl-shift-v': 'atomic-emacs:scroll-down'
 #  'cmd-v': 'atomic-emacs:scroll-down'
 
+'.platform-darwin atom-workspace atom-text-editor:not([mini])':
+  'ctrl-d': 'core:delete'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+
 '.platform-linux atom-workspace.atomic-emacs atom-text-editor':
   'ctrl-d': 'core:delete'
   'ctrl-e': 'editor:move-to-end-of-screen-line'
